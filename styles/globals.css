@@ -14,3 +14,36 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.zIndex-10 {
+  z-index: 10;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px 5px;
+}
+.img-responsive {
+  width: 100%;
+}
+.cards {
+  height: 100vh;
+  margin: 70px 24px;
+}
+.title {
+  font-size: 36px;
+  text-align: center;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+.btn-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.btn-cards {
+  display: flex;
+  margin: 50px 0;
+  background-color: black;
+}
