@@ -1,8 +1,8 @@
-import * as React from 'react';
-import Navbar from './navbar';
-import Hero from './hero';
-import Cards from './cards';
-import Button from '@mui/material/Button'
+import React from 'react';
+import Navbar from '../components/navbar';
+import Hero from '../components/hero';
+import Cards from '../components/cards';
+import Button from '@mui/material/Button';
 
 const Home = () => (
   <div>
@@ -20,7 +20,6 @@ const Home = () => (
           <Button variant="contained" className='btn-cards'>Ver mas productos</Button>
         </div>
       </section>
-
 
     </main>
   </div>
