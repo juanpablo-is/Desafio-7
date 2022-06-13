@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/navbar';
 import Hero from '../components/hero';
 import Cards from '../components/cards';
+import Footer from '../components/footer'
 import Button from '@mui/material/Button';
 
 const Home = () => (
@@ -20,7 +21,9 @@ const Home = () => (
           <Button variant="contained" className='btn-cards'>Ver mas productos</Button>
         </div>
       </section>
-
+      <section className='footer'>
+        <Footer />
+      </section>
     </main>
   </div>
 )
