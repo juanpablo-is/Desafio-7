@@ -11,26 +11,24 @@ export default function MediaCard() {
     <Grid container spacing={2}>
       <Grid item xs={12} xl={3}>
         <Card>
-          <CardActionArea>
-            <CardMedia
-              component="img"
-              height="250"
-              image="/card-1.webp"
-              alt="Jordan Air"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Jordan Air
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Las Jordan son zapas para adolescentes.
-              </Typography>
-            </CardContent>
-            <CardActions>
-              <Button size="small">Compartir</Button>
-              <Button size="small">Ver producto</Button>
-            </CardActions>
-          </CardActionArea>
+          <CardMedia
+            component="img"
+            height="250"
+            image="/card-1.webp"
+            alt="Jordan Air"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              Jordan Air
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Las Jordan son zapas para adolescentes.
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button size="small">Compartir</Button>
+            <Button size="small">Ver producto</Button>
+          </CardActions>
         </Card>
       </Grid>
 
