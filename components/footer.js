@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Image from 'next/image';
+import logoWeb from '../public/nike-brand.png'
 
 
 
@@ -25,11 +26,10 @@ export default function SimpleContainer() {
                     spacing={2}>
 
                     <Grid item xs={12} xl={3}>
-                        <img src='/nike-brand.png' 
-                        layout='fill' 
-                        style={{ width: '60px', }} 
-                        sx={{ 
-                            display: { xs: 'flex', md: 'none' }, 
+                        <Image src={logoWeb} 
+                        width={60}
+                        height={24}
+                        sx={{ display: { xs: 'flex', md: 'none' }, 
                             mr: 1, }} />
                         <p>Just... do it!</p>
                     </Grid>
