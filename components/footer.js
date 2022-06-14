@@ -15,21 +15,21 @@ export default function SimpleContainer() {
                 height: '40vh',
                 padding: '30px 24px 0 24px',
                 display: 'flex',
-                justifyContent: 'flex-start',
+                alignContent: 'flex-start',
 
             }} >
                 <Grid
                     container
                     direction="row"
                     justifyContent="center"
-                    alignItems="center"
+                    alignItems="flex-start"
                     spacing={2}>
 
                     <Grid item xs={12} xl={3}>
                         <Image src={logoWeb} 
                         width={60}
                         height={24}
-                        sx={{ display: { xs: 'flex', md: 'none' }, 
+                        sx={{ display: { xs: 'flex', xl: 'none' }, 
                             mr: 1, }} />
                         <p>Just... do it!</p>
                     </Grid>

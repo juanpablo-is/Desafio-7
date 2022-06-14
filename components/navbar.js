@@ -11,6 +11,7 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
+import Image from 'next/image';
 
 
 const pages = ['Acerca', 'Productos', 'Servicios', 'Contactos'];
@@ -76,7 +77,7 @@ const ResponsiveAppBar = () => {
               ))}
             </Menu>
           </Box>
-          <img src='/nike-brand.png' layout='fill' style={{width: '60px'}} sx={{ display: {xs: 'flex', md: 'none'}, mr: 1 }} />
+          <Image src='/nike-brand.png' width={60} height={24} sx={{ display: {xs: 'flex', md: 'none'}, mr: 1 }} />
           
           <Typography
             variant="h5"

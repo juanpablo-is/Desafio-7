@@ -1,9 +1,10 @@
 import React from 'react';
+import Button from '@mui/material/Button';
 import Navbar from '../components/navbar';
 import Hero from '../components/hero';
 import Cards from '../components/cards';
-import Footer from '../components/footer'
-import Button from '@mui/material/Button';
+import Footer from '../components/footer';
+
 
 const Home = () => (
   <div>
