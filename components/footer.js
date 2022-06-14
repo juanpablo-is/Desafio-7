@@ -35,15 +35,33 @@ export default function SimpleContainer() {
           </Grid>
 
           <Grid item xs={12} xl={3}>
-            <h1>Links de interes</h1>
+            <h1>Acceso rapido</h1>
+            <ul className="quick-links">
+                <li>Inicio</li>
+                <li>Acerca</li>
+                <li>Productos</li>
+                <li>Servicios</li>
+            </ul>
           </Grid>
 
           <Grid item xs={12} xl={3}>
-            <h1>xl3</h1>
+          <h1>Acceso rapido</h1>
+            <ul className="account-links">
+                <li>Mi cuenta</li>
+                <li>Mis pedidos</li>
+                <li>Mis pagos</li>
+                <li>Salir</li>
+            </ul>
           </Grid>
 
           <Grid item xs={12} xl={3}>
-            <h1>xl3</h1>
+          <h1>Acceso rapido</h1>
+            <ul className="social-links">
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Whatsapp</li>
+                <li>LinkedIn</li>
+            </ul>
           </Grid>
         </Grid>
       </Box>

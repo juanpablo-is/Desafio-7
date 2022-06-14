@@ -44,3 +44,9 @@ h1 {
   margin: 50px 0;
   background-color: black;
 }
+.quick-links {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 0px;
+}
