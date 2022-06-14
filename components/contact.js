@@ -24,7 +24,15 @@ export default function Contact() {
           spacing={2}
         >
           <Grid item xs={12} xl={6}>
-            <h1>Map</h1>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.8169189275986!2d-68.53094858500387!3d-31.52918798136661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9681402627b47aa5%3A0x476cc0c541ab5e40!2sFolcode!5e0!3m2!1ses!2sar!4v1655217908049!5m2!1ses!2sar"
+              width="600"
+              height="450"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </Grid>
           <Grid item xs={12} xl={6}>
             <Grid
@@ -63,9 +71,9 @@ export default function Contact() {
                   rows={4}
                 />
               </Grid>
-                <Grid item xs={12} xl={8}>
+              <Grid item xs={12} xl={8}>
                 <Button variant="outlined">Enviar mensaje</Button>
-                </Grid>
+              </Grid>
             </Grid>
           </Grid>
         </Grid>
