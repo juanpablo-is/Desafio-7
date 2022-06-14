@@ -38,14 +38,13 @@ h1 {
   justify-content: center;
   align-content: center;
   width: 100%;
+  margin: 50px 0;
 }
 .btn-cards {
   display: flex;
   margin: 50px 0;
   background-color: black;
-  color: white;
-  padding: 10px;
-  border-radius: 8px;
+
 }
 .quick-links {
   list-style: none;
