@@ -37,8 +37,8 @@ export default function SimpleContainer() {
           <Grid item xs={12} xl={3}>
             <h1>Acceso rapido</h1>
             <ul className="quick-links">
-                <li>Inicio</li>
-                <li>Acerca</li>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/acerca">Acerca</a></li>
                 <li>Productos</li>
                 <li>Servicios</li>
             </ul>

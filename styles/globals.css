@@ -43,6 +43,9 @@ h1 {
   display: flex;
   margin: 50px 0;
   background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
 }
 .quick-links {
   list-style: none;

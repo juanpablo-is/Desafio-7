@@ -3,6 +3,7 @@ import Navbar from '../components/navbar';
 import Hero from '../components/hero';
 import Cards from '../components/cards';
 import Button from '@mui/material/Button';
+import Masonry from '../components/masonry';
 import Footer from '../components/footer';
 
 const Home = () => (
@@ -11,19 +12,21 @@ const Home = () => (
       <Navbar />
     </header>
     <main>
-      <section className="hero">
+      <section className='hero'>
         <Hero />
       </section>
-      <section className="sec-cards">
-        <h1 className="title">Nuestros productos</h1>
-        <Cards variant="outlined" />
-        <div className="btn-center">
-          <Button variant="contained" className="btn-cards">
+      <section className='sec-cards'>
+        <h1 className='title'>Nuestros productos</h1>
+        <Cards variant='outlined' />
+        <div className='btn-center'>
+          <Button className='btn-cards'>
             Ver mas productos
           </Button>
         </div>
+        
       </section>
-      <section className="sec-footer">
+      <Masonry />
+      <section className='sec-footer'>
         <Footer />
       </section>
     </main>
