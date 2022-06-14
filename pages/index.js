@@ -1,10 +1,9 @@
-import React from 'react';
-import Button from '@mui/material/Button';
+import * as React from 'react';
 import Navbar from '../components/navbar';
 import Hero from '../components/hero';
 import Cards from '../components/cards';
+import Button from '@mui/material/Button';
 import Footer from '../components/footer';
-
 
 const Home = () => (
   <div>
@@ -12,21 +11,23 @@ const Home = () => (
       <Navbar />
     </header>
     <main>
-      <section className='hero'>
+      <section className="hero">
         <Hero />
       </section>
-      <section className='cards'>
-        <h1 className='title'>Nuestros productos</h1>
+      <section className="sec-cards">
+        <h1 className="title">Nuestros productos</h1>
         <Cards variant="outlined" />
-        <div className='btn-center'>
-          <Button variant="contained" className='btn-cards'>Ver mas productos</Button>
+        <div className="btn-center">
+          <Button variant="contained" className="btn-cards">
+            Ver mas productos
+          </Button>
         </div>
       </section>
-      <section className='footer'>
+      <section className="sec-footer">
         <Footer />
       </section>
     </main>
   </div>
-)
+);
 
-export default Home
+export default Home;
