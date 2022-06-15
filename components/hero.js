@@ -26,10 +26,10 @@ export default function SimpleContainer() {
           alignItems="center"
           spacing={2}
         >
-          <Grid item xs={12} xl={6}>
+          <Grid item xs={12} md={6} xl={6}>
             <h1>xs6</h1>
           </Grid>
-          <Grid item xs={12} xl={6}>
+          <Grid item xs={12} md={6} xl={6}>
             <Image src={HeroImg} width="640" height="300" />
           </Grid>
         </Grid>
