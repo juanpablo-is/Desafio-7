@@ -36,7 +36,7 @@ function DrawerAppBar(props) {
     width: 500,
     bgcolor: 'background.paper',
     borderRadius: '32px',
-    display: { xs: "none", xl: "flex" },
+    display: { xs: "none", md: "flex", xl: "flex" },
     justifyContent: 'center',
     alignItem: 'center',
     boxShadow: 24,
@@ -105,7 +105,6 @@ function DrawerAppBar(props) {
             <Button sx={{ color: "#fff" }}>Contactanos</Button>
             <Button sx={{ color: "#fff" }} variant="outlined" onClick={handleOpen}>Mi cuenta</Button>
             <Modal
-              sx={{ display: { xs: "none" } }}
               open={open}
               onClose={handleClose}
               aria-labelledby="modal-modal-title"
