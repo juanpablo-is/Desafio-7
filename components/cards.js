@@ -9,7 +9,7 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 export default function MediaCard() {
   return (
     <Grid container spacing={2}>
-      <Grid item xs={12} xl={3}>
+      <Grid item xs={12} md={3} xl={3}>
         <Card>
           <CardMedia
             component="img"
@@ -32,7 +32,7 @@ export default function MediaCard() {
         </Card>
       </Grid>
 
-      <Grid item xs={12} xl={3}>
+      <Grid item xs={12} md={3} xl={3}>
         <Card>
             <CardMedia
               component="img"
@@ -55,7 +55,7 @@ export default function MediaCard() {
         </Card>
       </Grid>
 
-      <Grid item xs={12} xl={3}>
+      <Grid item xs={12} md={3} xl={3}>
         <Card>
             <CardMedia
               component="img"
@@ -78,7 +78,7 @@ export default function MediaCard() {
         </Card>
       </Grid>
 
-      <Grid item xs={12} xl={3}>
+      <Grid item xs={12} md={3} xl={3}>
         <Card>
             <CardMedia
               component="img"
