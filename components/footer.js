@@ -11,7 +11,7 @@ export default function SimpleContainer() {
       <Box
         sx={{
           backgroundColor: "#FFBF00",
-          height: "40vh",
+          height: "40%",
           padding: "30px 24px 0 24px",
           display: "flex",
           alignContent: "flex-start",
@@ -24,7 +24,7 @@ export default function SimpleContainer() {
           alignItems="flex-start"
           spacing={2}
         >
-          <Grid item xs={12} xl={3}>
+          <Grid item xs={12} md={3} xl={3}>
             <Image
               src={logoWeb}
               width={60}
@@ -35,7 +35,7 @@ export default function SimpleContainer() {
             <h4>Just... Do It!</h4>
           </Grid>
 
-          <Grid item xs={12} xl={3}>
+          <Grid item xs={12} md={3} xl={3}>
             <h1>Acceso rapido</h1>
             <ul className="quick-links">
                 <li>Inicio</li>
@@ -45,7 +45,7 @@ export default function SimpleContainer() {
             </ul>
           </Grid>
 
-          <Grid item xs={12} xl={3}>
+          <Grid item xs={12} md={3} xl={3}>
           <h1>Cuenta</h1>
             <ul className="account-links">
                 <li>Mi cuenta</li>
@@ -55,7 +55,7 @@ export default function SimpleContainer() {
             </ul>
           </Grid>
 
-          <Grid item xs={12} xl={3}>
+          <Grid item xs={12} md={3} xl={3}>
           <h1>Redes Sociales</h1>
             <ul className="social-links">
                 <li>Facebook</li>
