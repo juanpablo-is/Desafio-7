@@ -14,7 +14,7 @@ const Home = () => (
 
     <Hero />
 
-    <section className="sec-cards" id="cards">
+    <section className="sec-cards">
       <h1 className="title">Nuestros productos</h1>
       <Cards variant="outlined" />
     </section>
