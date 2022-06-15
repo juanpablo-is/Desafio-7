@@ -49,12 +49,12 @@ function DrawerAppBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2, margin: "12px 0" }}>
+      <Typography variant="h6" sx={{ my: 2, margin: "10px 0" }}>
         <Image
           src="/nike-brand.png"
           width={60}
           height={24}
-          sx={{ display: 'flex', mr: 1 }}
+          sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
         />
       </Typography>
       <Divider />
@@ -105,6 +105,7 @@ function DrawerAppBar(props) {
             <Button sx={{ color: "#fff" }}>Contactanos</Button>
             <Button sx={{ color: "#fff" }} variant="outlined" onClick={handleOpen}>Mi cuenta</Button>
             <Modal
+              sx={{ display: { xs: "none" } }}
               open={open}
               onClose={handleClose}
               aria-labelledby="modal-modal-title"
