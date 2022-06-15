@@ -11,6 +11,7 @@ export default function SimpleContainer() {
       <Box
         sx={{
           backgroundColor: "#FFBF00",
+          width: "100%",
           height: "40%",
           padding: "30px 24px 0 24px",
           display: "flex",
