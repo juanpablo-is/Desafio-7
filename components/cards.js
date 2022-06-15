@@ -45,7 +45,7 @@ export default function MediaCard() {
                 Running
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Running es una linea especial para hacer running.
+                Running es especial para hacer correr.
               </Typography>
             </CardContent>
             <CardActions>
@@ -68,7 +68,7 @@ export default function MediaCard() {
                 Soccer
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Soccer es usado por los mejores futbolistas.
+                Soccer para los mejores futbolistas.
               </Typography>
             </CardContent>
             <CardActions>
