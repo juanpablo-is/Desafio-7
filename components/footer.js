@@ -29,6 +29,7 @@ export default function SimpleContainer() {
               src={logoWeb}
               width={60}
               height={24}
+              alt="Logo"
               sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
             />
             <h4>Just... Do It!</h4>
