@@ -54,7 +54,7 @@ function DrawerAppBar(props) {
           src="/nike-brand.png"
           width={60}
           height={24}
-          sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
+          sx={{ display: 'flex', mr: 1 }}
         />
       </Typography>
       <Divider />
