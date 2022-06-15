@@ -35,7 +35,7 @@ export default function Contact() {
               spacing={2}
             >
               <h1>Permanezcamos en contacto!</h1>
-              <Grid item xs={12} md={6} xl={8}>
+              <Grid item xs={12} md={6} xl={6}>
                 <TextField
                   fullWidth
                   id="outlined-textarea"
