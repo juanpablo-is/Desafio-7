@@ -13,10 +13,9 @@ export default function SimpleContainer() {
           backgroundImage: 'url("nike-logo.png")',
           backgroundPosition: "center center",
           backgroundSize: "cover",
-          height: "91vh",
+          height: "100vh",
           padding: "0 24px",
           display: "flex",
-          justifyContent: "center",
         }}
       >
         <Grid

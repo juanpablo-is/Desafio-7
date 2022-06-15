@@ -31,7 +31,7 @@ export default function SimpleContainer() {
               height={24}
               sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
             />
-            <p>Just... do it!</p>
+            <h4>Just... Do It!</h4>
           </Grid>
 
           <Grid item xs={12} xl={3}>
@@ -45,7 +45,7 @@ export default function SimpleContainer() {
           </Grid>
 
           <Grid item xs={12} xl={3}>
-          <h1>Acceso rapido</h1>
+          <h1>Cuenta</h1>
             <ul className="account-links">
                 <li>Mi cuenta</li>
                 <li>Mis pedidos</li>
@@ -55,7 +55,7 @@ export default function SimpleContainer() {
           </Grid>
 
           <Grid item xs={12} xl={3}>
-          <h1>Acceso rapido</h1>
+          <h1>Redes Sociales</h1>
             <ul className="social-links">
                 <li>Facebook</li>
                 <li>Instagram</li>

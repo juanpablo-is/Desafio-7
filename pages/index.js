@@ -6,19 +6,18 @@ import Cards from "../components/cards";
 import Masonry from "../components/masonry";
 import Contacto from "../components/contact";
 import Footer from "../components/footer";
+import Navigation from "../components/navigation";
 
 const Home = () => (
   <div>
-    
-    <Navbar />
+    <Navigation />
 
     <Hero />
 
-    <h1 className="title">Nuestros productos</h1>
-    <Cards variant="outlined" />
-    <div className="btn-center">
-      <Button variant="outlined">Ver mas productos</Button>
-    </div>
+    <section className="sec-cards" id="cards">
+      <h1 className="title">Nuestros productos</h1>
+      <Cards variant="outlined" />
+    </section>
 
     <Masonry />
 

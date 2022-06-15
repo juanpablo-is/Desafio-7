@@ -24,8 +24,8 @@ h1 {
   width: 100%;
 }
 .sec-cards {
-  height: 100vh;
-  margin: 70px 24px;
+  height: 90vh;
+  margin: 50px 24px;
 }
 .title {
   font-size: 36px;
@@ -38,7 +38,7 @@ h1 {
   justify-content: center;
   align-content: center;
   width: 100%;
-  margin: 50px 0;
+  
 }
 .btn-cards {
   display: flex;

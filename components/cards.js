@@ -34,7 +34,6 @@ export default function MediaCard() {
 
       <Grid item xs={12} xl={3}>
         <Card>
-          <CardActionArea>
             <CardMedia
               component="img"
               height="250"
@@ -53,13 +52,11 @@ export default function MediaCard() {
               <Button size="small">Compartir</Button>
               <Button size="small">Ver producto</Button>
             </CardActions>
-          </CardActionArea>
         </Card>
       </Grid>
 
       <Grid item xs={12} xl={3}>
         <Card>
-          <CardActionArea>
             <CardMedia
               component="img"
               height="250"
@@ -78,13 +75,11 @@ export default function MediaCard() {
               <Button size="small">Compartir</Button>
               <Button size="small">Ver producto</Button>
             </CardActions>
-          </CardActionArea>
         </Card>
       </Grid>
 
       <Grid item xs={12} xl={3}>
         <Card>
-          <CardActionArea>
             <CardMedia
               component="img"
               height="250"
@@ -103,9 +98,14 @@ export default function MediaCard() {
               <Button size="small">Compartir</Button>
               <Button size="small">Ver producto</Button>
             </CardActions>
-          </CardActionArea>
         </Card>
       </Grid>
+      <Grid item xs={12} xl={12}>
+        <div className="btn-center">
+      <Button variant="outlined">Ver mas productos</Button>
+      </div>
+      </Grid>  
+      
     </Grid>
   );
 }
