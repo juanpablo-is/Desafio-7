@@ -14,7 +14,7 @@ export default function SimpleContainer() {
           backgroundPosition: "center center",
           backgroundSize: "cover",
           height: "100vh",
-          width: "100vw",
+          width: "1",
           padding: "0 24px",
           display: "flex",
         }}
